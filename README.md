@@ -49,8 +49,9 @@ If you run the provider or(and) ZooKeeper in other IP or(and) Port, you should m
 
 Moreover, if you wanna publish your own RPC services, you should create a `.proto` file, define the data strcuture of arguments and return values of RPC method(s) and the method(s), and compile the `.proto` file with `protoc [.proto filename] --cpp_out=[path/to/targetfile]`.
 
-After compling, you will see 
+After compling, you will see a `.pb.h` and a `.pb.cpp` file, you should implement the vitual method you defined.
 
+Dut to the reason that MPZRPC is a framework project, the exact business code is not concerned, so I just provided 3 simple echo methods to valid the effectiveness of MPZRPC. If you are not familiar with the usage of Protobuf, you can learn it in [how to use Protobuf in C++?](https://protobuf.dev/getting-started/cpptutorial/).
 
 
 
