@@ -36,7 +36,14 @@ If you see these message above, congratulations, the building process is done su
  Run RPC consumer with `/path/to/MPZRPC/bin/consumer -c test.conf`.
 
 # 🔨 DIY
-The `test.conf` above in Section [Usage](#Usage) stores the IP and port information of RPC provider server and ZooKeeper server, you can 
+The `test.conf` above in Section [Usage](#Usage) stores the IP and port information of RPC provider server and ZooKeeper server, its content is as below:
+```
+# You would better not modify the field names otherwise you will need to modify the corresponding code in ../src/
+ProviderIP = 127.0.0.1
+ProviderPort = 6666
+ZooKeeperIP = 127.0.0.1
+ZooKeeperPort = 2181
+```
 
 
 
