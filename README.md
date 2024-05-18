@@ -45,6 +45,9 @@ ZooKeeperIP = 127.0.0.1
 # 2181 is the default running port of ZooKeeper
 ZooKeeperPort = 2181
 ```
+If you run the provider or(and) ZooKeeper in other IP or(and) Port, you should modify the filed above.
+
+
 
 
 
