@@ -42,6 +42,7 @@ The `test.conf` above in Section [Usage](#Usage) stores the IP and port informat
 ProviderIP = 127.0.0.1
 ProviderPort = 6666
 ZooKeeperIP = 127.0.0.1
+# 2181 is the default running port of ZooKeeper
 ZooKeeperPort = 2181
 ```
 
