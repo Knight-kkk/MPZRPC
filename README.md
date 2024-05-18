@@ -54,6 +54,8 @@ After compling, you will see a `.pb.h` and a `.pb.cpp` file, you should implemen
 Dut to the reason that MPZRPC is a framework project, the exact business code is not concerned, so I just provided 3 simple echo methods to valid the effectiveness of MPZRPC. If you are not familiar with the usage of Protobuf, you can learn it in [how to use Protobuf in C++?](https://protobuf.dev/getting-started/cpptutorial/).
 
 # 🎨 Features
-- MPZRPC employs Muduo as network communication component, 
+- MPZRPC employs Muduo as network communication component, which enables the RPC server(s) to support high concurrency.
+- MPZRPC employs Protobuf as message serilization&deserialization component, which demonstrates higher efficiency compared to other serialization and deserialization components such as JSON and XML.
+- MPZRPC employs middleware ZooKeeper as store the IP and port of available services, which enables services finding and notifying flexible.
 
 
