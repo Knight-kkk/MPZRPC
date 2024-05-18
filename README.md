@@ -18,7 +18,7 @@ As mentioned above, this project is based-on Muduo, Protobuf and ZooKeeper, you 
 
 Then, clone MPZRPC with `git clone https://github.com/Knight-kkk/MPZRPC.git`.
 
-Grant execution permission to automatic building shell script `autobuild.sh` with `chmod 777 autobuild.sh`.
+Grant execution permission to automatic building shell script `autobuild.sh` with `chmod 777 autobuild.sh` and run `./autobuild.sh`.
 
 
 
