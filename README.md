@@ -30,7 +30,9 @@ If you see these message above, congratulations, the building process is done su
 
 # 💻 Usage
  Run zookeeper with `/path/to/zookeeper/zkServer.sh start`.
+ 
  Run RPC provider with `/path/to/MPZRPC/bin/provider -c test.conf`.
+ 
  Run RPC consumer with `/path/to/MPZRPC/bin/consumer -c test.conf`.
  
 
