@@ -56,6 +56,8 @@ Dut to the reason that MPZRPC is a framework project, the exact business code is
 # 🎨 Features
 - MPZRPC employs Muduo as network communication component, which enables the RPC server(s) to support high concurrency.
 - MPZRPC employs Protobuf as message serilization&deserialization component, which demonstrates higher efficiency compared to other serialization and deserialization components such as JSON and XML.
-- MPZRPC employs middleware ZooKeeper as store the IP and port of available services, which enables services finding and notifying flexible.
+- MPZRPC employs middleware ZooKeeper as store the IP and port of available services, which enables more flexible service discovery and updates, additionally ensuring service availability.
+
+# 📂 Project organization
 
 
