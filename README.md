@@ -59,5 +59,14 @@ Dut to the reason that MPZRPC is a framework project, the exact business code is
 - MPZRPC employs middleware ZooKeeper as store the IP and port of available services, which enables more flexible service discovery and updates, additionally ensuring service availability.
 
 # 📂 Project organization
+- `bin`: excutable target program.
+- `build`: build files.
+- `examples`: examples to demonstrate the usage of Protobuf and ZooKeeper.
+- `lib`: target library file and head files of MPZRPC.
+- `log`: log files
+- `src`: source code and head files
+- `test`: test demo files
+
+# 🔀 Workflow
 
 
