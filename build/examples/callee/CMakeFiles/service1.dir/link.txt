@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/service1.dir/service1.cpp.o CMakeFiles/service1.dir/__/service1.pb.cc.o -o /home/ninga/桌面/MPRPC/bin/service1   -L/home/ninga/桌面/MPRPC/lib  -Wl,-rpath,/home/ninga/桌面/MPRPC/lib /home/ninga/桌面/MPRPC/lib/libmprpc.a -lprotobuf -lpthread -lmuduo_net -lmuduo_base -lpthread 
