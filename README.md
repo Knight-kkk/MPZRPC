@@ -12,4 +12,9 @@ MPRPC is a RPC framawotk based-on [Muduo](https://github.com/chenshuo/muduo.git)
 
 # 🛠️ Environment configuration & Build
 As mentioned above, this project is based-on Muduo, Protobuf and ZooKeeper, you can follow these tutorials below to configure your basic environment.
+- [how to use Muduo in your project?](https://github.com/chenshuo/muduo-tutorial.git)
+- [how to use Protobuf in your project?](https://github.com/protocolbuffers/protobuf.git)
+- [how to use ZooKeeper in your project?](https://github.com/apache/zookeeper.git)
+
+
 
