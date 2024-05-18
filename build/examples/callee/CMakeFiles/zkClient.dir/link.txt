@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/zkClient.dir/zookeeper.cpp.o CMakeFiles/zkClient.dir/__/__/src/zkutil.cpp.o -o /home/ninga/桌面/MPRPC/bin/zkClient   -L/home/ninga/桌面/MPRPC/lib  -Wl,-rpath,/home/ninga/桌面/MPRPC/lib /home/ninga/桌面/MPRPC/lib/libmprpc.a -lzookeeper_mt -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 

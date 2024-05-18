@@ -1,0 +1,52 @@
+syntax = "proto3"; // 声明protobuf版本
+
+package test;   // 声明代码所在包
+
+// 请求消息
+message LonginRequest
+{
+    string name = 1;    // 1表示是第一个字段
+    string pwd = 2;     // 2表示是第二个字段
+}
+
+// 响应消息
+message LoginMessage
+{
+    int32 errcode = 1;
+    string errmsg = 2;
+    bool success = 3;
+}
+
+message StatusCode
+{
+    int32 code = 1;
+    string errormsg = 2;
+}
+
+message User
+{
+    int32 id = 1;
+    string name = 2;
+    enum Sex{
+        MAN = 0;
+        WOMAN = 1;
+    }
+    Sex sex = 3;
+}
+
+message Response
+{
+    StatusCode rescode = 1;
+    repeated User users = 2;
+}
+
+// google protobuf使用步骤
+// 1. 编写proto文件
+// 2. protoc XXX.proto --cpp_out = 输出路径
+// 3. 代码中 using namespace XXX (package指定的命名空间)
+// 4. 代码中包含头文件
+// 5. 编译时链接protobuf和pthread库文件
+
+// message中可以含有列表成员，嵌套其他message成员
+// 获取其他message成员时，使用mutable_XXX 成员名或者成员指针
+// 增加列表成员元素时，使用add_XXX函数得到一个列表元素类型指针

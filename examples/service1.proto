@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+// protoc之后namespace
+package examples;
+
+// 编译service选项
+option cc_generic_services = true;
+
+message args
+{
+    bytes input1 = 1;
+    bytes input2 = 2;
+}
+
+message msgcode
+{
+    int32 code = 1;
+    bytes msg = 2;
+}
+
+message retval
+{
+    msgcode retcode = 1;
+    bool ret = 2;
+}
+
+service service1
+{
+    rpc func1(args) returns(retval);
+    rpc func2(args) returns(retval);
+    rpc func3(args) returns(retval);
+}
+

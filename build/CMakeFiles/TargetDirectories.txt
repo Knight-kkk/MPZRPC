@@ -1,0 +1,14 @@
+/home/ninga/桌面/MPRPC/build/CMakeFiles/edit_cache.dir
+/home/ninga/桌面/MPRPC/build/CMakeFiles/rebuild_cache.dir
+/home/ninga/桌面/MPRPC/build/src/CMakeFiles/mprpc.dir
+/home/ninga/桌面/MPRPC/build/src/CMakeFiles/edit_cache.dir
+/home/ninga/桌面/MPRPC/build/src/CMakeFiles/rebuild_cache.dir
+/home/ninga/桌面/MPRPC/build/examples/CMakeFiles/edit_cache.dir
+/home/ninga/桌面/MPRPC/build/examples/CMakeFiles/rebuild_cache.dir
+/home/ninga/桌面/MPRPC/build/examples/caller/CMakeFiles/consumer.dir
+/home/ninga/桌面/MPRPC/build/examples/caller/CMakeFiles/edit_cache.dir
+/home/ninga/桌面/MPRPC/build/examples/caller/CMakeFiles/rebuild_cache.dir
+/home/ninga/桌面/MPRPC/build/examples/callee/CMakeFiles/provider.dir
+/home/ninga/桌面/MPRPC/build/examples/callee/CMakeFiles/zkClient.dir
+/home/ninga/桌面/MPRPC/build/examples/callee/CMakeFiles/edit_cache.dir
+/home/ninga/桌面/MPRPC/build/examples/callee/CMakeFiles/rebuild_cache.dir

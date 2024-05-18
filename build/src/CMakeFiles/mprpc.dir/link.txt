@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/ninga/桌面/MPRPC/lib/libmprpc.a CMakeFiles/mprpc.dir/logger.cpp.o CMakeFiles/mprpc.dir/mpzrpcapplication.cpp.o CMakeFiles/mprpc.dir/mpzrpcchannel.cpp.o CMakeFiles/mprpc.dir/mpzrpcconfig.cpp.o CMakeFiles/mprpc.dir/mpzrpccontroller.cpp.o CMakeFiles/mprpc.dir/mpzrpcprovider.cpp.o CMakeFiles/mprpc.dir/mpzrpcrequesthead.pb.cc.o CMakeFiles/mprpc.dir/zkutil.cpp.o
+/usr/bin/ranlib /home/ninga/桌面/MPRPC/lib/libmprpc.a

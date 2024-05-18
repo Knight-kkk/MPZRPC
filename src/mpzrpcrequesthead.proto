@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package mprpc;
+
+message mprpcRequestHead{
+    bytes serviceName = 1;
+    bytes methodName = 2;
+    uint32 argsSize = 3;
+}
+
+// 请求头包含三个字段：服务名，方法名，参数
