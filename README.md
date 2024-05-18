@@ -47,6 +47,10 @@ ZooKeeperPort = 2181
 ```
 If you run the provider or(and) ZooKeeper in other IP or(and) Port, you should modify the filed above.
 
+Moreover, if you wanna publish your own RPC services, you should create a `.proto` file, define the data strcuture of arguments and return values of RPC method(s) and the method(s), and compile the `.proto` file with `protoc [.proto filename] --cpp_out=[path/to/targetfile]`.
+
+After compling, you will see 
+
 
 
 
