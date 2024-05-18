@@ -20,6 +20,15 @@ Then, clone MPZRPC with `git clone https://github.com/Knight-kkk/MPZRPC.git`.
 
 Grant execution permission to automatic building shell script `autobuild.sh` with `chmod 777 autobuild.sh` and run `./autobuild.sh`.
 
+If you see these message above, congratulations, the building process is done successfully.
+```
+[ 50%] Built target mprpc
+[ 66%] Built target consumer
+[ 83%] Built target provider
+[100%] Built target zkClient
+```
+
+
 
 
 
